@@ -1,0 +1,187 @@
+/* GLOBALS */
+html {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+}
+
+h1 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-weight: lighter;
+    color: #002e5d;
+}
+
+h2 {
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    color: #666666;
+}
+
+.eat-container span {
+    color: black;
+    font-style: normal;
+}
+
+
+/*HEADER STYLES*/
+#site-logo {
+    background-color: #002E5D;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    height: 50px;
+}
+
+#site-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+#site-logo svg {
+    height: 50px;
+    float: left;
+}
+
+#logo-text {
+    display: inline-block;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 14px;
+    float: left;
+    line-height: 17px;
+    padding-top: 8px;
+    text-align: left;
+}
+
+#site-title {
+    display: inline-block;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#site-slogan {
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    font-family: 'HCo Ringside Narrow SSm', 'Arial', 'sans-serif';
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+byu-header {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    #site-slogan {
+        display: none;
+    }
+
+    #site-title {
+        float: right
+    }
+}
+
+/*BANNER CONTAINER*/
+#banner-fruits, #banner-grains,
+#banner-proteins, #banner-vegetables {
+    display: none;
+}
+
+
+/*EAT CONTAINER*/
+.eat-container {
+    display: grid;
+    grid-template-columns: 50% 1% 49%;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+    .eat-container {
+        display: block;
+    }
+    .eat-description {
+        text-align: center;
+    }
+}
+
+.eat-svg {
+    padding: 20px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.eat-ribbon {
+    background-color: #002e5d;
+    border-radius: 25px;
+    margin: 20px 0px;
+
+}
+
+.eat-description {
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.vegetables, .fruits, .proteins, .grains {
+    display: none;
+}
+
+.food-table {
+    width: 100%;
+    margin-bottom: 60px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.food-table, th, td {
+    border: 1px solid black;
+}
+
+.food-table th, td {
+    padding: 10px 0;
+}
+
+.table-name {
+    background-color: #002e5d;
+    color: #fff;
+    padding: 8px 0;
+}
+
+
+
+/*SVG STYLES*/
+#svg-link {
+    text-align: center;
+}
+
+
+#vegetables:hover,
+#proteins:hover,
+#fruits:hover,
+#grains:hover {
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all .8s;
+}
+
+#vegetables:hover {
+    transform: scale(.99, 1.01);
+}
+
+#fruits:hover {
+    transform: scale(.99, .99);
+}
+
+#grains:hover {
+    transform: scale(1.01, .99);
+}
+
+#proteins:hover {
+    transform: scale(1.01, 1.01);
+}
+
+
+
+
+

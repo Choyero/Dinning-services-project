@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Eat, Act, Think</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="BYU's guide on how to eat, act, and think for a healthier life." />
+    <meta name="keywords" content="byu, healthy options, fit pick, daily portions, nutrition facts, dietician" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+
+
+    <!-- BYU LINKS -->
+    <link rel="stylesheet" href="https://cdn.byu.edu/theme-fonts/latest/ringside/fonts.css">
+    <link rel="stylesheet" href="https://cdn.byu.edu/byu-theme-components/1.x.x/byu-theme-components.min.css" />
+    <script async src="https://cdn.byu.edu/byu-theme-components/1.x.x/byu-theme-components.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP AND JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+
+    <!-- LOCAL FILES -->
+    <link rel="stylesheet" href="styles/eat.css">
+    <script type="text/javascript" src="scripts/eat.js"></script>
+    
+
+</head>
+
+<body>
+
+    <!--BYU HEADER-->
+        <!--PART 1, using the dining style guide, add the BYU header with E.A.T. as the site title. Don't forget to add the CSS to the CSS file-->
+        <div>
+            <div id="site-logo">
+                <a href="http://dining.byu.edu/">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #fff
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1" d="M157.1 190.94v-.52c19-5.3 29.09-16.67 29.09-44.71 0-14.29-3.43-27-11.9-35.72-7.14-7.13-15.61-10-32-10H20.68v41.27h14.46v102.59H20.68v41.27H142c15.08 0 24.86-2.9 32.53-10.58C183 266.08 188 253.89 188 235.65c0-30.16-10.54-39.65-30.9-44.71zm-67.73-51h29.37c5 0 6.87.79 8.19 2.1 1.86 1.86 2.92 5.3 2.92 14.29 0 9.25-1.33 13-3.18 15.08-1.59 1.59-3.43 1.86-7.93 1.86H89.37zm38.89 102.9c-1.85 1.85-4 2.37-8.73 2.37H89.37v-37h30.16c4.77 0 6.88.52 8.73 2.36 2.12 2.13 3.17 4.5 3.17 16.42 0 12.1-1.31 13.95-3.17 15.81zM477.86 100v41.27h13.42v74.33c0 17.2-.79 22.21-3.17 24.6-2.12 2.12-6.88 2.65-15.87 2.65H463c-9 0-13.75-.53-15.87-2.65-2.38-2.39-3.17-7.4-3.17-24.6v-74.38h13.41V100h-78.08v41.27h9.93v69.57c0 41 4.49 53.43 14.55 63.48 8.46 8.46 19 10.85 42.84 10.85h41c23.8 0 34.38-2.39 42.84-10.85 10.06-10 14.55-22.48 14.55-63.48v-69.62h13.94V100z" />
+                        <path class="cls-1" d="M375.88 88.35h18.58V42.57H297.9v45.07h16.23l-32.34 65.18-32.35-65.18h16.23V42.57h-96.56v45.78h18.59l61.72 113.88v68.58H229.1v46.62h105.37v-46.62h-20.32v-68.58l61.73-113.88zM360.11 304.93a2.32 2.32" />
+                         
+                    </svg>
+                    <span id="logo-text">Dining <br> Services</span>
+                </a>
+                <a href="index.html"><span id="site-title">E.A.T.</span></a>
+                <span id="site-slogan">Eat, Act, Think for a Healthier Life</span>
+            </div>
+    
+            <byu-header></byu-header>
+            <!--ORIGINAL HEADER NEEDS TO BE ADDED IN ORDER FOR THE FOOTER TO BE SUPPORTED-->
+            <!--END BYU HEADER-->
+        </div>
+    <!--END BYU HEADER-->
+
+    <!--BANNER CONTAINER-->
+    <div class="banner-container">
+        <img id="banner" class="banner" src="images/eat-banner.jpg" width="100%">
+        <!--PART 2, add the other banner images below titled vegetables.jpg, proteins.jpg, grains.jpg, and fruits.jpg. They will be hidden until the user clicks on the SVG-->
+        <div>
+            <img id="banner-fruits" class="banner" src="images/fruits.jpg" width="100%">
+            <img id="banner-grains" class="banner" src="images/grains.jpg" width="100%">
+            <img id="banner-proteins" class="banner" src="images/proteins.jpg" width="100%">
+            <img id="banner-vegetables" class="banner" src="images/vegetables.jpg" width="100%">
+        </div>
+
+    </div>
+    <!--END BANNER CONTAINER-->
+
+    <!--EAT CONTAINER-->
+    <div class="eat-container">
+        <div class="eat-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1308 1164.67">
+                <defs>
+                    <style>
+                        .cls-2 {
+                            font-size: 50px
+                        }
+
+                        .cls-11,
+                        .cls-2 {
+                            fill: #fff;
+                            font-family: Arial-BoldMT, Arial;
+                            font-weight: 700
+                        }
+
+                        .cls-11 {
+                            font-size: 30px
+                        }
+                    </style>
+                </defs>
+                <g id="vegetables">
+                    <path d="M657.25 1147.37C409.67 1147.37 209 946.66 209 699.08q0-12.39.67-24.63h446.88z" stroke="#fff" stroke-miterlimit="10" stroke-width="20" fill="#c1d251" />
+                    <text class="cls-2" transform="translate(321.89 888.92)">Vegetables</text>
+                </g>
+                <g id="proteins">
+                    <path d="M656.91 1147.37c239.3 0 434.81-187.51 447.62-423.61H656.91z" fill="#544788" stroke="#fff" stroke-miterlimit="10" stroke-width="20" />
+                    <text class="cls-2" transform="translate(744.54 916.91)">Proteins</text>
+                </g>
+                <g id="grains">
+                    <path d="M656.91 250.84c247.58 0 448.28 200.7 448.28 448.28q0 12.4-.66 24.64H657.6z" fill="#ee8624" stroke="#fff" stroke-miterlimit="10" stroke-width="20" />
+                    <text class="cls-2" transform="translate(775.36 547.39)">Grains</text>
+                </g>
+                <g id="fruits">
+                    <path d="M656.91 250.84c-239.3 0-434.8 187.5-447.61 423.61h447.61z" fill="#c33832" stroke="#fff" stroke-miterlimit="10" stroke-width="20" />
+                    <text class="cls-2" transform="translate(395.71 525.42)">Fruits</text>
+                </g>
+            </svg>
+        </div>
+
+        <div class="eat-ribbon"><br></div>
+
+        <div class="eat-description">
+            <div class="eat-quote">Select one of the food groups to learn more  </div>
+            <div class="fruits">
+                <h1>Fruits</h1>
+                <h2>Why?</h2>
+                <p>Fruits provide dietary fiber, potassium, vitamin C, and folate. Most fruits are nutrient rich and low in calories. Eating more fruits and vegetables may reduce your risk of chronic disease and some cancers.</p>
+                <h2>What?</h2>
+                <p>Fruits can be fresh, frozen, canned, or dried. Canned, frozen, and dried fruits are often harvested during their peak, so the most nutrients are preserved. Especially when a fruit is off season, frozen, canned or dried are great options.<br>Include a variety of fruits (berries, melons, and other fruits) with meals and snacks. Fruits can be whole, cut-up, or in a smoothie. </p>
+                <h2>How Much?</h2>
+                <p>1 serving = 1 cup fruit or 100% fruit juice, 1/2 cup dried fruit</p>
+                <!--PART 3, add the Fruit table here. See photo for details-->
+                <table class="food-table">
+                    <caption class="table-name">Daily Reccomendation of Fruits</caption>
+                    <tr>
+                      <th>Gender</th>
+                      <th>Age</th>
+                      <th>Amount</th>
+                    </tr>
+                    <tr>
+                      <td>Women</td>
+                      <td>19-30<br>31+</td>
+                      <td>2 cups<br>1  1/2 cups</td>
+                    </tr>
+                    <tr>
+                      <td>Men</td>
+                      <td>19+</td>
+                      <td>2 cups</td>
+                    </tr>
+                  </table>
+            </div>
+
+            <div class="vegetables">
+                <h1>Vegetables</h1>
+                <h2>Why?</h2>
+                <p>Vegetables provide dietary fiber, potassium, vitamin A, vitamin C, and folate. Most vegetables, especially non-starchy vegetables, are low in calories and nutrient rich. Eating more fruits and vegetables may reduce your risk of chronic disease and some cancers.</p>
+                <h2>What?</h2>
+                <p>Vegetables can be fresh, frozen, canned, or dried/dehydrated. Canned, frozen, and dried vegetables are often harvested during their peak, so the most nutrients are preserved. Especially when a vegetable is off season, frozen, canned or dried are great options.<br>There are 5 subgroups within the vegetable food group: red and orange, starchy, dark green, beans and peas, and other. Eat a variety of vegetables from each subgroup every week.</p>
+                <h2>How Much?</h2>
+                <p>1 serving = 1 cup raw or cooked vegetables, 2 cups raw leafy greens</p>
+                <!--PART 4, add the Vegetable table here. See photo for details-->
+                <table class="food-table">
+                    <caption class="table-name">Daily Reccomendation of Vegetables</caption>
+                    <tr>
+                      <th>Gender</th>
+                      <th>Age</th>
+                      <th>Amount</th>
+                    </tr>
+                    <tr>
+                      <td>Women</td>
+                      <td>19-50<br>51+</td>
+                      <td>2 1/2 cups<br>2 cups</td>
+                    </tr>
+                    <tr>
+                      <td>Men</td>
+                      <td>19-50<br>51+</td>
+                      <td>3 cups<br>2 1/2 cups</td>
+                    </tr>
+                  </table>
+            </div>
+
+            <div class="grains">
+                <h1>Grains</h1>
+                <h2>Why?</h2>
+                <p>Grains provide dietary fiber, B vitamins (folate, niacin, riboflavin, and thiamin), iron, magnesium, and selenium. Eating more whole grains may contribute to better weight management and reduce your risk of chronic disease.</p>
+                <h2>What?</h2>
+                <p>Grains can be either whole or refined. Whole grains are made up of the bran, germ and endosperm. If a grain is refined, the bran and germ have been removed. The label “enriched” means that B vitamins and iron have been added back in, but fiber is not added. <br>Whole grains include whole wheat, brown rice, oatmeal, popcorn, quinoa, and others. Make half of the grain foods you eat whole grains. </p>
+                <h2>How Much?</h2>
+                <p>1 serving = 1 ounce (1 slice bread, 1 cup ready-to-eat cereal, 1/2 cup cooked rice/pasta/cereal)</p>
+                <!--PART 5, add the Grains table here. See photo for details-->
+                <table class="food-table">
+                    <caption class="table-name">Daily Reccomendation of Grains</caption>
+                    <tr>
+                      <th>Gender</th>
+                      <th>Age</th>
+                      <th>Amount</th>
+                    </tr>
+                    <tr>
+                      <td>Women</td>
+                      <td>19-30<br>31+</td>
+                      <td>6 oz<br>5 oz</td>
+                    </tr>
+                    <tr>
+                      <td>Men</td>
+                      <td>19-30<br>31-50<br>51+</td>
+                      <td>8 oz<br>7 oz<br>6 oz</td>
+                    </tr>
+                  </table>
+            </div>
+
+            <div class="proteins">
+                <h1>Proteins</h1>
+                <h2>Why?</h2>
+                <p>Protein foods are important sources of protein, B vitamins (B6, niacin, riboflavin, and thiamin), vitamin E, iron, zinc, and magnesium. Some seafood also provide omega-3 fatty acids, EPA and DHA. Eating lean protein contributes the building blocks for body tissues, such as blood, bones, cartilage, muscles, and skin.</p>
+                <h2>What?</h2>
+                <p>Protein foods include animal and plant sources, such as meat, poultry, seafood, beans and peas, eggs, nuts, and seeds. To have a healthy lifestyle, eat a variety of protein foods. Avoid protein sources high in saturated fats (fatty cuts of meat, hot dogs, bacon, and lunch meats) because they can increase risk for heart disease.</p>
+                <h2>How Much?</h2>
+                <p>1 serving = 1 ounce meat/poultry/fish, 1/4 cup cooked beans, 1 egg, 1 tbsp nut butter, 1/2 ounce nuts/seeds</p>
+                <!--PART 5, add the proteins table here. See photo for details-->
+                <table class="food-table">
+                    <caption class="table-name">Daily Reccomendation of Proteins</caption>
+                    <tr>
+                      <th>Gender</th>
+                      <th>Age</th>
+                      <th>Amount</th>
+                    </tr>
+                    <tr>
+                      <td>Women</td>
+                      <td>19-30<br>31+</td>
+                      <td>5 1/2 oz<br>5 oz</td>
+                    </tr>
+                    <tr>
+                      <td>Men</td>
+                      <td>19-30<br>31-50<br>51+</td>
+                      <td>6 1/2 oz<br>6 oz<br>5 1/2 oz</td>
+                    </tr>
+                  </table>
+            </div>
+
+            
+        </div>
+    </div>
+    <!--END EAT CONTAINER-->
+
+
+    <!--FOOTER-->
+        <!--PART 6, add the BYU footer here with the -->
+        <byu-footer>
+            <byu-footer-column>
+                <span slot="header">Contact</span>
+                <p>BYU Dining Services
+                    <br> 180 USB, Brigham Young University
+                    <br> Provo, Utah 84602
+                    <br> 801-422-2571
+                </p>
+                <byu-footer-action-button>
+                    <a href="mailto:dining@byu.edu" slot="actiontext">Contact Us</a>
+                </byu-footer-action-button>
+            </byu-footer-column>
+            <byu-footer-column>
+                <span slot="header">Related Links</span>
+                <a href="mealplans">Meal Plans</a>
+                <a href="employment">Employment</a>
+                <a href="http://mix.byu.edu">MIX Magazine</a>
+            </byu-footer-column>
+            <byu-footer-column>
+                <span slot="header">Connect With Us</span>
+                <div>
+                    <div>Follow BYU Dining Services</div>
+                    <byu-social-media-links>
+                        <a class="facebook" href="https://www.facebook.com/BYUDiningServices"></a>
+                        <a class="instagram" href="https://www.instagram.com/byudiningservices"></a>
+                        <a class="twitter" href="https://www.twitter.com/byudining"></a>
+                    </byu-social-media-links>
+                </div>
+            </byu-footer-column>
+        </byu-footer>
+    <!--END FOOTER-->
+
+</body>
+
+</html>
